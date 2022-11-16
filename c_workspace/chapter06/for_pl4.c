@@ -10,7 +10,7 @@ int main(void) {
     // 1. 5번 반복
     for(int i=1; i<=5; i++) {
         // 2. 별의 갯수를 반복
-        for(int j=0; j<i; j++) {
+        for(int j=6; j>i; j--) {
             printf("*");
         }
         printf("\n");
